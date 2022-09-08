@@ -1,0 +1,224 @@
+/*
+common
+*********************/
+
+html,
+body{
+
+    width:100%;
+}
+
+.content{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+}
+.content .home-col{
+    display: flex;
+    gap: 2%;
+    padding-left: 2%;
+    border-bottom: 1px solid #CCC;
+    
+
+}
+.content h3{
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+.content .image{
+    width: 50px;
+}
+
+
+/*
+post_form
+*********************/
+
+
+
+.post_form .edit-form{
+    display:flex;
+    gap:2%;
+
+}
+
+.post_form{
+    padding: 4% 0% 0% 3%;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+
+}
+
+.post_form .edit-home-icon{
+    width:12%;
+    height:18%
+
+}
+.post_form .logo_user{
+    display:flex;
+    gap:3%;
+}
+.post_form input {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #CCC;
+
+}
+.post_form .name{
+    background-color: rgb(196, 250, 233);
+    
+    border:none;
+    
+    border-radius: 6px;
+}
+
+.post_form .button{
+    color:white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:15px;
+    width:80px;
+    border-radius: 7px;
+    background-color: rgb(29, 161, 242);
+    text-align: center;
+}
+.post_form .submitt {
+    padding: 1% 1% 1% 14%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+}
+
+
+.post_form .submit .tweet{
+    padding: 0 0 0 27%;
+}
+
+.post_form .logo_bar .home_icon{
+    width: 50px;
+    padding-right: 4%;
+}
+
+.post_form .namebar{
+    width:100%;
+    padding: 0% 0% 1% 3%;;
+
+}  
+.edit-input input{
+    width: 70%;
+}
+#files1{
+    width: 70%;
+}
+
+.post_form textarea{
+    width: 70%;
+    padding: 0% 27% 10% 0%;
+
+
+}
+
+
+
+/*
+post_form
+*********************/
+
+
+
+
+.posts ul{
+    padding:0;
+}
+
+.posts li{
+    display: flex;
+    border-bottom: 1px solid #CCC;
+    padding: 17px;
+    list-style: none;
+    position: relative;
+}
+.posts li .menu_icon{
+    width:20px; 
+    position:absolute;
+    right: 30px;
+    top:18px;
+}
+.posts li .menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border:1px solid #CCC;
+    background-color: white;
+    padding: 2% 2% 2% 3%;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.posts li .menu a{
+    text-decoration: none;
+}
+
+
+.posts li .logo{
+    flex-basis: 15%;
+}
+.posts li .logo img{
+    width:60%;
+}
+.posts .content_space{
+    display:flex;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+
+}
+
+.posts li .name_time {
+    display:flex;
+}
+
+.posts li .name_body .name{
+    font-weight: bold;
+}
+.posts li .name_body .datetime{
+    color: gray;
+    padding-left: 10px;
+}
+.posts .name_body .like{
+    width: 6%;
+    display: flex;
+    gap: 9%
+}
+.posts li .like .likebtn{
+    width:100%;
+}
+
+@media screen and (max-width:500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+    .post_form input {
+        width: 48%;
+    }
+}
+button.cancelbtn {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 80px;
+    border-radius: 7px;
+    background-color: rgb(29, 161, 242);
+    text-align: center;
+    height: 5vh;
+    border: none;
+}
+
+    a#cancel {
+        color: white;
+        text-decoration: none;
+    }
